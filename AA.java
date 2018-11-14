@@ -69,22 +69,10 @@ public class AA {
 		for(int i=0; i<input.length; i++)
 		{
 			input[i][0] = i+1;
-		}
-		for(int i=0; i<input.length; i++)
-		{
 			input[i][1] = generator.nextInt(input.length) + 1;
-		}
-		for(int j=0; j<input.length; j++)
-		{
-			input[j][2]=generator.nextInt(number_A)+1;
-		}
-		for(int j=0; j<input.length; j++)
-		{
-			input[j][3]=generator.nextInt(number_T)+1;
-		}
-		for(int j=0; j<input.length; j++)
-		{
-			input[j][4]=generator.nextInt(number_S)+1;
+			input[i][2]=generator.nextInt(number_A)+1;
+			input[i][3]=generator.nextInt(number_T)+1;
+			input[i][4]=generator.nextInt(number_S)+1;
 		}
 		return input;
 	}
