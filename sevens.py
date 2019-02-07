@@ -1,6 +1,6 @@
 def sevensRecursion(x,y):
     if y!=0:
-        return sevensRecursion((x*8),(y-1))
+        return sevensRecursion((x*7),(y-1))
     else:
         print(str(digit_sum(x)) + " " + str(digit_sum(digit_sum(digit_sum(x)))) + " " + str(x))
         
